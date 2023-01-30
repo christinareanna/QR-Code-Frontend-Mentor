@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card, Col, Button } from 'react-bootstrap';
+import { Container, Card, Col,} from 'react-bootstrap';
 import QRCode from "./images/image-qr-code.png";
 import "./App.css";
 
@@ -7,16 +7,16 @@ import "./App.css";
 const Layout = () => {
 
     return (
-        <Container className='p-4'>
-            <Col md="4">
-                <Card>
+        <Container className='container'>
+            <Col>
+                <Card style={{borderRadius: "5%", border: "none", width: "375px", height: "550px" }}>
                     <Card.Img variant="top" src={QRCode} />
                     <Card.Body>
                         <Card.Title>Improve your front-end skills by building projects</Card.Title>
                         <Card.Text>
                             Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
                         </Card.Text>
-                        <Button variant="primary">Read More</Button>
+                        {/* <Button variant="primary">Read More</Button> */}
                     </Card.Body>
                 </Card>
             </Col>
