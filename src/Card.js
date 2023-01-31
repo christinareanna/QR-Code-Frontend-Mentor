@@ -9,7 +9,7 @@ const Layout = () => {
     return (
         <Container className='container'>
             <Col>
-                <Card style={{borderRadius: "5%", border: "none", width: "375px", height: "550px" }}>
+                <Card style={{borderRadius: "5%", border: "none", width: "375px", height: "500px" }}>
                     <Card.Img variant="top" src={QRCode} />
                     <Card.Body>
                         <Card.Title>Improve your front-end skills by building projects</Card.Title>
